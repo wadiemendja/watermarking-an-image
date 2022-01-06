@@ -72,7 +72,7 @@ public class WaterMark {
 
         // Set font for the watermark text
         graphics.setFont(new Font("Arial", Font.PLAIN, 20));
-        graphics.setColor(new Color(255, 0, 0, 40));
+        graphics.setColor(new Color(255, 0, 0, 10));
 
         // Setting watermark text
         String watermark = "02/01/2022";
