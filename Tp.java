@@ -78,7 +78,7 @@ public class Tp {
         String imageFilepath = "input.png";
         String message = convertToBinAsciiCode(text);
         watermarkImage(imageFilepath, message);
-        // String extractedText = extractWaterMark("output.png");
-        // System.out.println(extractedText);
+        String extractedText = extractWaterMark("output.png");
+        System.out.println(extractedText);
     }
 }
