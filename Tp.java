@@ -74,9 +74,10 @@ public class Tp {
     }
 
     public static void main(String[] args) throws IOException {
-        String text = "Hello end msg";
+        String text = "mohammed end msg";
         String imageFilepath = "input.png";
         String message = convertToBinAsciiCode(text);
+        System.out.println(message);
         watermarkImage(imageFilepath, message);
         String extractedText = extractWaterMark("output.png");
         System.out.println(extractedText);
